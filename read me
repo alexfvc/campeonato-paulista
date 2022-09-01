@@ -1,0 +1,91 @@
+	eventos paulista
+    idEvent	 referencia ao jogo
+    timeElapsed	 tempo do ocorrido
+    idTeam	 referencia a equipe
+    strTeam	 nome da equipe 
+    idPlayer	 referencia oa jogador envolvido
+    strPlayer	 nome do jogador
+    tipo	 tipo do ocorrido: cartao, subistituicao,
+    detail	 detalhes do ocorrido: cor do cartao, qual o numero da substituicao usada
+    comments 
+    
+	jogos
+    idEvent	 referencia ao jogo
+    dateEvent	 data do jogo
+    eventCity	 cidade do jogo
+    eventStatus	 se está acontecendo ou ja acabou; obs: todos devem ter terminado. "Match Finished"
+    eventElapsed	 tempo de duraçao do jogo. obs: todos devem ter 90 min.
+    eventLeague	 liga em que aconteceu o jogo. obs: todos devem ser paulista A1.
+    eventRound	 
+    idHomeTeam	 referencia ao time da casa
+    strHomeTeam	 nome do time da casa
+    logoHomeTeam	 logo do time da casa
+    idAwayTeam	 referencia time visitante
+    strAwayTeam 	 nome time visitante
+    logoAwayTeam 	 logo time visitante
+    intHomeScore 	
+    intAwayScore 	
+    intHomeHt 	
+    intAwayHt 	
+    date	 data
+    hour	 hora
+    idWinner	 referencia do time vencedor
+    winner	 nome do vencedor
+    winOrDraw	 vitoria ou empate
+    underOver	
+    predGoalsHome	
+    predGoalsAway	
+    advice	
+    formHome	
+    formAway	
+    attHome	
+    attAway	
+    defHome	
+    defAway	
+    poissonHome	 posse time da casa
+    poissonAway	 posse time visitante
+    h2hHome	
+    h2hAway	
+    goalsHome	gols do time da casa
+    goalsAway	gols do time de fora
+    totalHome	
+    totalAway	
+    homeOdd	
+    rawOdd	
+    awayOdd	
+    over05	 mais de um gol no jogo
+    over05Ht	 mais de um gol no  primeiro tempo
+    under1,5	 menos de 1,5 gols no jogo
+    under1,5Ht	 menos de 1,5 gols no primeiro tempo
+    
+	stats_paulista
+    idEvent	
+    idTeam	
+    strTeam	
+    isHome	
+    shots_on_goal	
+    shots_off_goal	
+    total_shots	
+    blocked_shots	
+    shots_insidebox	
+    shots_outsidebox	
+    fouls	
+    corner_kicks	
+    offsides	
+    ball_possession	
+    yellow_cards	
+    red_cards	
+    goalkeeper_saves	
+    total_passes	
+    passes_accurate	
+    passes_%	
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
